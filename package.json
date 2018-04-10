@@ -1,0 +1,28 @@
+{
+  "name": "fake-fetch-2",
+  "version": "2.0.0",
+  "description": "fake window.fetch for tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start"
+  },
+  "repository": "https://github.com/stringerbell/fake-fetch-2.git",
+  "author": "Michał Jezierski",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "promise": "^8.0.1",
+    "sinon": "^4.5.0",
+    "whatwg-fetch": "^2.0.4"
+  },
+  "devDependencies": {
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.0",
+    "karma-browserify": "^5.2.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.1",
+    "karma-mocha-reporter": "^2.2.5",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "phantomjs-prebuilt": "^2.1.16"
+  }
+}
